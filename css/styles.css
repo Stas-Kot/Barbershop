@@ -1,0 +1,134 @@
+:root {
+  --title-color: #303030;
+  --undertitle-color: rgba(157, 164, 189, 0.6);
+  --primary-color: #555555;
+  --secondary-color: #9da4bd;
+  --bcg-primary-color: #ffffff;
+  --bcg-secondary-color: #f7f7f7;
+  --bcg-temporary-color: grey;
+  --accent-color: #ff6c00;
+  --main-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--bcg-primary-color);
+
+  scroll-behavior: smooth;
+}
+
+address {
+  font-style: normal;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style: none;
+}
+
+.button {
+  color: var(--bcg-primary-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.header,
+.hero {
+  background-color: var(--bcg-temporary-color);
+}
+.link {
+  color: var(--bcg-primary-color);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+}
+
+.hero .link {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.hero-undertitle {
+  color: var(--undertitle-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: var(--bcg-primary-color);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+}
+.hero-description {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+}
+
+/* ABOUT */
+
+.about-undertitle {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.about-title {
+  font-family: var(--secondary-font);
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.167;
+  letter-spacing: 0.05em;
+}
+.about .description {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.667;
+  letter-spacing: 0.02em;
+}
+.about-description {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.857;
+  letter-spacing: 0.02em;
+}
+.about .button {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
